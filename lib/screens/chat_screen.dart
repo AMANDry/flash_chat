@@ -108,13 +108,13 @@ class MassagesStream extends StatelessWidget {
       builder: (context, snapshot) {
         final messages = snapshot.data.docs.reversed;
         List<MessageBubble> messageBubbles = [];
-//                if (snapshot.hasData) {
-//                  return Center(
-//                    child: CircularProgressIndicator(
-//                      backgroundColor: Colors.lightBlueAccent,
-//                    ),
-//                  );
-//                }
+               if (!snapshot.hasData) {
+                 return Center(
+                   child: CircularProgressIndicator(
+                     backgroundColor: Colors.lightBlueAccent,
+                   ),
+                 );
+               }
         for (var message in messages) {
           final messageText = message.data()['text'];
           final messageSender = message.data()['sender'];
