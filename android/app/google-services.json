@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "573040297621",
+    "firebase_url": "https://flash-chat-4035c.firebaseio.com",
+    "project_id": "flash-chat-4035c",
+    "storage_bucket": "flash-chat-4035c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:573040297621:android:2788b4b20887d6814a3d9c",
+        "android_client_info": {
+          "package_name": "fumikator.flash_chat_2_2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "573040297621-f3marfh0gugpbfinr258k9tpbj5uhca4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJsua4cav3d2DMEJaCqLwrcfq7c2Rhajk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "573040297621-f3marfh0gugpbfinr258k9tpbj5uhca4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
